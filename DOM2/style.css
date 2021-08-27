@@ -1,0 +1,16 @@
+h1{
+    background-color: green;
+    color:yellow;
+    font-size: 20px
+    ;
+}
+
+.red{
+    color:red;
+    background-color: yellow;
+}
+
+#green{
+    color:green;
+    background-color:lightcyan;
+}
