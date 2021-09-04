@@ -52,7 +52,7 @@ for(let i=0;i<pList.length;i++){
 
 addButton.addEventListener('click',function(){
     for(let i=0;i<pList.length;i++){
-        pList[i].style.color="red"
+        pList[i].style.color="red "
     }
 })
 
