@@ -262,3 +262,54 @@ let uWord = word.split(" ")
 console.log(uWord) //converts to array
 
 
+students = [
+    {
+        firstName: "chinmay",
+        skills: ["phyton","js","html"],
+        city: "pune"
+    },
+    {
+        firstName: "poorva",
+        skills: ["phyton","js","html"],
+        city: "mumbai"
+    },
+    {
+        firstName: "poorva",
+        skills: ["C#","js","html"],
+        city: "pune"
+    }
+]
+
+console.log(students.filter(s => s.skills.includes("python") && s.city == 'pune'))
+
+
+let k = "amol"
+console.log(k.charAt(0).toUpperCase()+k.slice(1,))
+
+let y = [12,33,12,33,44,55,66,12]
+function getUnique(y){
+    let uniqueArray = [];
+    // Loop through array values
+    for(i=0; i < y.length; i++){
+        if(uniqueArray.indexOf(y[i]) === -1) {
+            uniqueArray.push(y[i]);
+        }
+    }
+    return uniqueArray;
+}
+
+let uniqueNumber = getUnique(y);
+    console.log(uniqueNumber);
+
+let wordz = "Hello I am Chinmay"
+
+
+let name222 = "AbcAbCBNcNNaNNMMbbjk"
+let newName222 =""
+for (let i = 0; i < name222.length; i++){
+    if(name222[i].match(/[A-Z]/)){
+        newName222= newName222+name222[i]
+    }
+}
+console.log(newName222)
+

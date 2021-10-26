@@ -49,7 +49,7 @@ for (let i = 0; i < car.length; i++) {
     for (let key in car[i]) {
 
         if(key == 'make' || key == 'feature'){
-            console.log(`${key}:${car[i][key]}`)
+            console.log(`${key}: ${car[i][key]}`)
         }
       
     }

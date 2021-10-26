@@ -10,7 +10,7 @@ for(i = 0; i < h.length; i++){
     console.log(h[i])
 }
 
-//Write Functions in 3 days!
+//Write Functions in 3 ways!
 
 //1. Function DECLARATION 
 function Addition(x,y){

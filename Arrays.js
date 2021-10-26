@@ -361,3 +361,5 @@ console.log(names3)
 let names2 = ["hello","world","!!!","enjoy"]
 console.log(names2.join(" ")) //hello world !!! enjoy
 console.log(names2.join()) //hello,world,!!!,enjoy
+
+
