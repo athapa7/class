@@ -1,7 +1,19 @@
+let yyyy = [1,1,3,55,66,55]
+let uel =[] // [1]
+for(let i = 0 ; i < yyyy.length ;i++){
+
+    if(uel.indexOf(yyyy[i]) < 0){
+        uel.push(yyyy[i])
+    }
+    
+
+}
+console.log(uel)
+ 
  // max min value  from array
 
     let ArrayA = [10,20,30,15,7]
-    let maxValue = 0
+    let maxValue = ArrayA[0]
     let minValue = ArrayA[0]
 
     for(let i = 0; i < ArrayA.length;i++){

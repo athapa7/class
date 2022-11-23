@@ -48,6 +48,10 @@ person.language = "nepali" //this will add language as property in the object
 console.log(person)
 console.log(person.language)
 
+//delete
+
+
+
 //for loop
 
 for(let x in person){ 

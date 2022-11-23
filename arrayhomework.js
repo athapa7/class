@@ -56,3 +56,48 @@ for (let i = 0; i < car.length; i++) {
 }
 
 
+let students = [
+    {
+
+    fullName: "chinmay deshpande",
+    age:12,
+    skill:["python","java","javascript"],
+    marks: 300,
+    city:"nagpur"
+
+    },
+
+    {
+
+        fullName: "amol rao",
+        age:12,
+        skill:["python","java","javascript","jquery"],
+        marks: 200,
+        city:"pune"
+        
+        },
+
+        {
+
+            fullName: "shaddha",
+            age:12,
+            skill:["python","java","html","css"],
+            marks: 100,
+            city: "mumbai"
+            }
+
+]
+
+// name of the person with mumbai
+
+//average age of all students
+
+//average marks of all students
+
+// add country: "India" to all Students
+
+// name to be printed with nuber of skills
+
+//name of person with pythin skill and in pune
+
+//add skills "project management" 
